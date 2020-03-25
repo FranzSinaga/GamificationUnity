@@ -32,6 +32,8 @@ public class PopulateGrid : MonoBehaviour
             newButton.transform.SetParent(this.transform, false);
             //newButton.GetComponent<Image>().color = Random.ColorHSV();
             newButton.GetComponent<Image>().sprite = AnimalImages[i];
+            newButton.GetComponent<AudioSource>().clip = audio[i];
+            
         }
     }
 }
