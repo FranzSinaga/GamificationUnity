@@ -1155,6 +1155,7 @@ GameObject:
   - component: {fileID: 1437500897}
   - component: {fileID: 1437500896}
   - component: {fileID: 1437500895}
+  - component: {fileID: 1437500898}
   m_Layer: 5
   m_Name: ObjectButton
   m_TagString: Untagged
@@ -1223,7 +1224,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1437500896}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1437500898}
+        m_MethodName: changeMenu
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: HewanDaratMode2
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1437500896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1260,6 +1272,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437500893}
   m_CullTransparentMesh: 0
+--- !u!114 &1437500898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437500893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b619487e847d94fa1acce321de0c71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1619065270
 GameObject:
   m_ObjectHideFlags: 0
