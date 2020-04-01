@@ -6,11 +6,12 @@ public class Darat : MonoBehaviour
 {
     [SerializeField] private Transform bearPlace;
 
-    private Vector2 initialPosition;
+    private Vector2 initialPosition, posisiAwal;
 
     private float deltaX, deltaY;
-
-    public static bool locked;
+    private int tempPositionIndex;
+    private Vector2 vectorTemp;
+    public static bool locked, restart;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,24 @@ public class Darat : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+    {
+        dragAndDrop();
+        if (restart)
+        {
+            reload();
+            dragAndDrop();
+            restart = false;
+        }
+    }
+
+    void getTempPosition()
+    {
+        int index = Random.Range(0, GameControl.randomList.Count);
+        vectorTemp = GameControl.listPosition[GameControl.randomList[index]];
+        GameControl.randomList.RemoveAt(index);
+    }
+    
+    void dragAndDrop()
     {
         if (Input.touchCount > 0 && !locked)
         {
@@ -46,13 +65,28 @@ public class Darat : MonoBehaviour
                     {
                         transform.position = new Vector2(bearPlace.position.x, bearPlace.position.y);
                         locked = true;
+                        getTempPosition();
                     }
                     else
                     {
-                        transform.position = new Vector2(initialPosition.x, initialPosition.y);
+                        if (!GameControl.updated)
+                        {
+                            transform.position = new Vector2(initialPosition.x, initialPosition.y);
+                        }
+                        else
+                        {
+                            transform.position = vectorTemp;
+                        }
                     }
                     break;
             }
         }
+    }
+
+    void reload()
+    {
+        //transform.position = new Vector2(initialPosition.x, initialPosition.y);
+        transform.position = vectorTemp;
+        locked = false;
     }
 }
