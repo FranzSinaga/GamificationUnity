@@ -12,9 +12,13 @@ public class Darat : MonoBehaviour
     private int tempPositionIndex;
     private Vector2 vectorTemp;
     public static bool locked, restart;
-    // Start is called before the first frame update
+    
+    //Object Image
+    public Sprite[] spriteImage;
+    
     void Start()
     {
+        this.gameObject.GetComponent<SpriteRenderer>().sprite = spriteImage[0];
         initialPosition = transform.position;
     }
 
@@ -66,6 +70,7 @@ public class Darat : MonoBehaviour
                         transform.position = new Vector2(bearPlace.position.x, bearPlace.position.y);
                         locked = true;
                         getTempPosition();
+                        GameControl.score += 10;
                     }
                     else
                     {
@@ -88,5 +93,11 @@ public class Darat : MonoBehaviour
         //transform.position = new Vector2(initialPosition.x, initialPosition.y);
         transform.position = vectorTemp;
         locked = false;
+        getRandomImage();
+    }
+    void getRandomImage()
+    {
+        int index = Random.Range(0, spriteImage.Length);
+        this.gameObject.GetComponent<SpriteRenderer>().sprite = spriteImage[index];
     }
 }

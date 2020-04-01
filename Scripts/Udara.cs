@@ -11,9 +11,13 @@ public class  Udara : MonoBehaviour
     private int tempPositionIndex;
     private Vector2 vectorTemp;
     public static bool locked, restart;
-    // Start is called before the first frame update
+    
+    
+    //Image 
+    public Sprite[] spriteImage;
     void Start()
     {
+        this.gameObject.GetComponent<SpriteRenderer>().sprite = spriteImage[0];
         initialPosition = transform.position;
     }
 
@@ -65,6 +69,7 @@ public class  Udara : MonoBehaviour
                         transform.position = new Vector2(koalaPlace.position.x, koalaPlace.position.y);
                         locked = true;
                         getTempPosition();
+                        GameControl.score += 10;
                     }
                     else
                     {
@@ -87,5 +92,12 @@ public class  Udara : MonoBehaviour
         //transform.position = new Vector2(initialPosition.x, initialPosition.y);
         transform.position = vectorTemp;
         locked = false;
+        getRandomImage();
+    }
+    
+    void getRandomImage()
+    {
+        int index = Random.Range(0, spriteImage.Length);
+        this.gameObject.GetComponent<SpriteRenderer>().sprite = spriteImage[index];
     }
 }

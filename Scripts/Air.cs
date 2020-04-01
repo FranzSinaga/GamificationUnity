@@ -1,19 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
+using Image = UnityEngine.UI.Image;
+using Object = System.Object;
 
 public class Air : MonoBehaviour
 {
     [SerializeField] private Transform hearPlace;
-
+    
     private Vector2 initialPosition, posisiAwal;
     private float deltaX, deltaY;
     private int tempPositionIndex;
     private Vector2 vectorTemp;
     public static bool locked, restart;
-    // Start is called before the first frame update
+    
+    //Object Image
+    public Sprite[] spriteImage;
+    
     void Start()
     {
+        this.gameObject.GetComponent<SpriteRenderer>().sprite = spriteImage[0];
         initialPosition = transform.position;
     }
 
@@ -65,6 +72,7 @@ public class Air : MonoBehaviour
                         transform.position = new Vector2(hearPlace.position.x, hearPlace.position.y);
                         locked = true;
                         getTempPosition();
+                        GameControl.score += 10;
                     }
                     else
                     {
@@ -87,5 +95,12 @@ public class Air : MonoBehaviour
         //transform.position = new Vector2(initialPosition.x, initialPosition.y);
         transform.position = vectorTemp;
         locked = false;
+        getRandomImage();
+    }
+
+    void getRandomImage()
+    {
+        int index = Random.Range(0, spriteImage.Length);
+        this.gameObject.GetComponent<SpriteRenderer>().sprite = spriteImage[index];
     }
 }
