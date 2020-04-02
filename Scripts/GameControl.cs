@@ -1,23 +1,28 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameControl : MonoBehaviour
 {
-    [SerializeField] private GameObject winText, scoreText, timeText, winUI;
+    [SerializeField] private GameObject scoreText, timeText, winUI;
     public int objectCount;
     public Vector2[] fixPosition;
     public static List<Vector2> listPosition;
     public static List<int> randomList;
     public static bool updated = false;
-    
+
+
+    private Scene scene;
     //Score
-    public static int score = 0;
+    public static int score = 50;
     public int targetScore = 50;
     
     //Time
-    private float currentTime=0f, startingTime=10f;
+    private float currentTime=0f, startingTime=100f;
     void Start()
     {
         winUI.SetActive(false);
@@ -25,17 +30,26 @@ public class GameControl : MonoBehaviour
         createListPosition();
 
         currentTime = startingTime;
+        scene = SceneManager.GetActiveScene();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Darat.locked && Air.locked && Udara.locked)
+        if (Darat.locked && Air.locked && Udara.locked && scene.name == "HewanLvl1")
         {
             updated = true;
             Air.restart = true;
             Darat.restart = true;
             Udara.restart = true;
+            createListPosition();
+        } else if(Darat.locked && Darat2.locked && Air.locked && Udara.locked && scene.name == "HewanLvl2")
+        {
+            updated = true;
+            Air.restart = true;
+            Darat.restart = true;
+            Udara.restart = true;
+            Darat2.restart = true;
             createListPosition();
         }
 
@@ -72,17 +86,35 @@ public class GameControl : MonoBehaviour
 
     void checkWin()
     {
+        string NextLevel = GetSceneNameFromScenePath(SceneUtility.GetScenePathByBuildIndex(scene.buildIndex + 1));
         if (currentTime <= 0)
         {
             if (score >= targetScore)
             {
-                winUI.SetActive(true);
+                winUI.transform.Find("WinButtonLocation").gameObject.SetActive(true);
+                winUI.transform.Find("LoseButtonLocation").gameObject.SetActive(false);
+                if (NextLevel.Contains("Lvl"))
+                {
+                    PlayerPrefs.SetInt(NextLevel, 1);
+                }
             }
             else
             {
-                winText.GetComponent<Text>().text = "You Lose";
-                winUI.SetActive(true);
+                //winText.GetComponent<Text>().text = "You Lose";
+                winUI.GetComponentInChildren<Text>().text = "You Lose";
+                winUI.transform.Find("WinButtonLocation").gameObject.SetActive(false);
+                winUI.transform.Find("LoseButtonLocation").gameObject.SetActive(true);
             }
+            winUI.SetActive(true);
         }
+    }
+    
+    private static string GetSceneNameFromScenePath(string scenePath)
+    {
+        // Unity's asset paths always use '/' as a path separator
+        var sceneNameStart = scenePath.LastIndexOf("/", StringComparison.Ordinal) + 1;
+        var sceneNameEnd = scenePath.LastIndexOf(".", StringComparison.Ordinal);
+        var sceneNameLength = sceneNameEnd - sceneNameStart;
+        return scenePath.Substring(sceneNameStart, sceneNameLength);
     }
 }
