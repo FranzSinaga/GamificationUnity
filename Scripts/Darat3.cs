@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Darat : MonoBehaviour
+public class Darat3 : MonoBehaviour
 {
     [SerializeField] private Transform bearPlace;
 
@@ -96,8 +96,8 @@ public class Darat : MonoBehaviour
         //transform.position = new Vector2(initialPosition.x, initialPosition.y);
         transform.position = vectorTemp;
         locked = false;
-        getRandomImage();
         transform.gameObject.GetComponent<BoxCollider2D>().enabled = true;
+        getRandomImage();
     }
     void getRandomImage()
     {

@@ -17,6 +17,8 @@ public class  Udara : MonoBehaviour
     public Sprite[] spriteImage;
     void Start()
     {
+        GameControl.score = 0;
+        GameControl.updated = false;
         this.gameObject.GetComponent<SpriteRenderer>().sprite = spriteImage[0];
         initialPosition = transform.position;
     }

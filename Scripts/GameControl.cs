@@ -31,6 +31,18 @@ public class GameControl : MonoBehaviour
 
         currentTime = startingTime;
         scene = SceneManager.GetActiveScene();
+
+        Darat.locked = false;
+        Darat2.locked = false;
+        Darat3.locked = false;
+        Air.locked = false;
+        Udara.locked = false;
+
+        Darat.restart = false;
+        Darat2.restart = false;
+        Darat3.restart = false;
+        Air.restart = false;
+        Udara.restart = false;
     }
 
     // Update is called once per frame
@@ -50,6 +62,15 @@ public class GameControl : MonoBehaviour
             Darat.restart = true;
             Udara.restart = true;
             Darat2.restart = true;
+            createListPosition();
+        } else if(Darat.locked && Darat2.locked && Darat3.locked && Air.locked && Udara.locked && scene.name == "HewanLvl3")
+        {
+            updated = true;
+            Air.restart = true;
+            Darat.restart = true;
+            Udara.restart = true;
+            Darat2.restart = true;
+            Darat3.restart = true;
             createListPosition();
         }
 

@@ -2,8 +2,7 @@
 
 namespace DefaultNamespace
 {
-    public class Darat2 : MonoBehaviour
-    {
+    public class Darat2 : MonoBehaviour    { 
         [SerializeField] private Transform bearPlace;
 
     private Vector2 initialPosition, posisiAwal;
@@ -18,6 +17,9 @@ namespace DefaultNamespace
     
     void Start()
     {
+        GameControl.score = 0;
+        GameControl.updated = false;
+        
         this.gameObject.GetComponent<SpriteRenderer>().sprite = spriteImage[0];
         initialPosition = transform.position;
     }
@@ -68,6 +70,7 @@ namespace DefaultNamespace
                         Mathf.Abs(transform.position.y - bearPlace.position.y) <= 0.5f)
                     {
                         transform.position = new Vector2(bearPlace.position.x, bearPlace.position.y);
+                        transform.gameObject.GetComponent<BoxCollider2D>().enabled = false;
                         locked = true;
                         getTempPosition();
                         GameControl.score += 10;
@@ -93,6 +96,7 @@ namespace DefaultNamespace
         //transform.position = new Vector2(initialPosition.x, initialPosition.y);
         transform.position = vectorTemp;
         locked = false;
+        transform.gameObject.GetComponent<BoxCollider2D>().enabled = true;
         getRandomImage();
     }
     void getRandomImage()
