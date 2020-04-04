@@ -26,7 +26,7 @@ public class PopulateGrid : MonoBehaviour
     }
 
     void populate(){
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < numberToCreate; i++)
         {
             newButton = Instantiate(prefab);
             newButton.transform.SetParent(this.transform, false);

@@ -11,7 +11,7 @@ public class PopulateMode2 : MonoBehaviour
     public bool controller;
     public GameObject Content;
     public GameObject prefab;
-    public int numberToCreate = 5;
+    public int numberToCreate;
 
     public GameObject buttonNext, buttonPrev;
     
@@ -25,6 +25,7 @@ public class PopulateMode2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        position = 0;
         if (controller != true)
         {
             populate();

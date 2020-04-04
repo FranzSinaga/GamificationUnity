@@ -1423,18 +1423,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3954035523345129513, guid: d8040b83d1a5a504cb9837132c8603e7, type: 3}
-  numberToCreate: 10
+  numberToCreate: 4
   AnimalImages:
-  - {fileID: 21300000, guid: b1f066e48b6960d4d80c4ce78f2b746b, type: 3}
+  - {fileID: 21300000, guid: ff9158737e243fa4e9a5df174f8adbf1, type: 3}
+  - {fileID: 21300000, guid: 84ab62c37157c41449e57cd61280ef58, type: 3}
+  - {fileID: 21300000, guid: 80cacb0ff3d66e44984a084e2822a441, type: 3}
   - {fileID: 21300000, guid: 3e77027ab05f6564886f48ec8ff2f5d1, type: 3}
-  - {fileID: 21300000, guid: 3e77027ab05f6564886f48ec8ff2f5d1, type: 3}
-  - {fileID: 21300000, guid: a218682c4e5de874e80415c73688d65c, type: 3}
-  - {fileID: 21300000, guid: 4706b2ec12fb70745b58b4510f6825f7, type: 3}
   audio:
   - {fileID: 8300000, guid: 555cbb3d1be804c4cb188c455266b92f, type: 3}
   - {fileID: 8300000, guid: 32cb181174b70fb4c960bd385f282fbf, type: 3}
   - {fileID: 8300000, guid: 555cbb3d1be804c4cb188c455266b92f, type: 3}
-  - {fileID: 8300000, guid: 32cb181174b70fb4c960bd385f282fbf, type: 3}
   - {fileID: 8300000, guid: 555cbb3d1be804c4cb188c455266b92f, type: 3}
 --- !u!222 &1019255606
 CanvasRenderer:

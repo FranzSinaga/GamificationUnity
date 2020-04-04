@@ -437,18 +437,14 @@ MonoBehaviour:
   controller: 0
   Content: {fileID: 730218567}
   prefab: {fileID: 7084923655005534022, guid: 845aa35f24869e748acafccca1fab66a, type: 3}
-  numberToCreate: 5
+  numberToCreate: 3
   buttonNext: {fileID: 1302211172}
   buttonPrev: {fileID: 1928953964}
   AnimalImages:
-  - {fileID: 21300000, guid: 21e4b379e272a9f4a926fc6b0dcd9d32, type: 3}
-  - {fileID: 21300000, guid: a218682c4e5de874e80415c73688d65c, type: 3}
-  - {fileID: 21300000, guid: 3e77027ab05f6564886f48ec8ff2f5d1, type: 3}
-  - {fileID: 21300000, guid: b1f066e48b6960d4d80c4ce78f2b746b, type: 3}
-  - {fileID: 21300000, guid: d450d378253387243910cc6da1a5a55b, type: 3}
+  - {fileID: 21300000, guid: ff9158737e243fa4e9a5df174f8adbf1, type: 3}
+  - {fileID: 21300000, guid: 84ab62c37157c41449e57cd61280ef58, type: 3}
+  - {fileID: 21300000, guid: 80cacb0ff3d66e44984a084e2822a441, type: 3}
   audio:
-  - {fileID: 8300000, guid: 555cbb3d1be804c4cb188c455266b92f, type: 3}
-  - {fileID: 8300000, guid: 32cb181174b70fb4c960bd385f282fbf, type: 3}
   - {fileID: 8300000, guid: 555cbb3d1be804c4cb188c455266b92f, type: 3}
   - {fileID: 8300000, guid: 32cb181174b70fb4c960bd385f282fbf, type: 3}
   - {fileID: 8300000, guid: 555cbb3d1be804c4cb188c455266b92f, type: 3}
@@ -1110,11 +1106,17 @@ MonoBehaviour:
   controller: 1
   Content: {fileID: 730218567}
   prefab: {fileID: 7084923655005534022, guid: 845aa35f24869e748acafccca1fab66a, type: 3}
-  numberToCreate: 5
+  numberToCreate: 3
   buttonNext: {fileID: 1302211172}
   buttonPrev: {fileID: 1928953964}
-  AnimalImages: []
-  audio: []
+  AnimalImages:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  audio:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &1302211174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1600,11 +1602,17 @@ MonoBehaviour:
   controller: 1
   Content: {fileID: 730218567}
   prefab: {fileID: 7084923655005534022, guid: 845aa35f24869e748acafccca1fab66a, type: 3}
-  numberToCreate: 5
+  numberToCreate: 3
   buttonNext: {fileID: 1302211172}
   buttonPrev: {fileID: 1928953964}
-  AnimalImages: []
-  audio: []
+  AnimalImages:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  audio:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &1928953967
 MonoBehaviour:
   m_ObjectHideFlags: 0
