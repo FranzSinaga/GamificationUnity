@@ -308,9 +308,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   koalaPlace: {fileID: 1134742477}
   spriteImage:
-  - {fileID: 21300000, guid: 4706b2ec12fb70745b58b4510f6825f7, type: 3}
-  - {fileID: 21300000, guid: b1f066e48b6960d4d80c4ce78f2b746b, type: 3}
-  - {fileID: 21300000, guid: 91583077ee5c6b84f9f446c4fb6c1163, type: 3}
+  - {fileID: 21300000, guid: 0c84c5cead323b9449e3e78ab1ccf113, type: 3}
+  - {fileID: 21300000, guid: 11bcccea3a281a149b816398e1c891e5, type: 3}
+  - {fileID: 21300000, guid: abfd4e4b86bbe6340aaaba372c7b1985, type: 3}
 --- !u!61 &282870087
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -517,9 +517,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hearPlace: {fileID: 665486546}
   spriteImage:
-  - {fileID: 21300000, guid: 1914896a422123a4fbd0216eee2cab85, type: 3}
-  - {fileID: 21300000, guid: 9cff724b0bb455b4c83c3f68c2615e3b, type: 3}
-  - {fileID: 21300000, guid: 8f7662e512fbdaa43b6a24b1c57cf385, type: 3}
+  - {fileID: 21300000, guid: 80cacb0ff3d66e44984a084e2822a441, type: 3}
+  - {fileID: 21300000, guid: 84ab62c37157c41449e57cd61280ef58, type: 3}
+  - {fileID: 21300000, guid: ff9158737e243fa4e9a5df174f8adbf1, type: 3}
 --- !u!61 &306433864
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -643,9 +643,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bearPlace: {fileID: 1868317115}
   spriteImage:
-  - {fileID: 21300000, guid: d1639be130dd77340a8ad7b9cf44780a, type: 3}
-  - {fileID: 21300000, guid: c49143a8f02b7ed47bca59fe92191416, type: 3}
-  - {fileID: 21300000, guid: bf96bb3b45740fc41b94da6cfede2182, type: 3}
+  - {fileID: 21300000, guid: d0640e23a72c36c45878ebdc25edb1fa, type: 3}
+  - {fileID: 21300000, guid: 2fa0fbd3a39f982498707ac71f16e737, type: 3}
+  - {fileID: 21300000, guid: df308816270a33849a72cfc195cf7573, type: 3}
 --- !u!61 &380988743
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1584,9 +1584,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bearPlace: {fileID: 1868317115}
   spriteImage:
-  - {fileID: 21300000, guid: 157e96ee86bc19c499f7eb490117b564, type: 3}
-  - {fileID: 21300000, guid: 1ede01b359637074ab3fca8ee857e611, type: 3}
-  - {fileID: 21300000, guid: cbcff32d245af1c45ae8171622a280e7, type: 3}
+  - {fileID: 21300000, guid: 27126a17c6a004e4abe07071b861b110, type: 3}
+  - {fileID: 21300000, guid: b0c25d6065d964b48b29cfe5d7d0267e, type: 3}
+  - {fileID: 21300000, guid: df308816270a33849a72cfc195cf7573, type: 3}
 --- !u!61 &1064925929
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2557,9 +2557,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bearPlace: {fileID: 1868317115}
   spriteImage:
-  - {fileID: 21300000, guid: a3b66a8b917dbba4c9de69c903b05f67, type: 3}
-  - {fileID: 21300000, guid: 9364bece206b519428c15dc22ec8ccab, type: 3}
-  - {fileID: 21300000, guid: f99147639b4dac046881fbf80ef6eafa, type: 3}
+  - {fileID: 21300000, guid: 12cf574778a420a4daf6c7fe0ad52c2c, type: 3}
+  - {fileID: 21300000, guid: 5f8f53b17ffcffc408088757927919b0, type: 3}
+  - {fileID: 21300000, guid: eb6ad02f22cdaec47b22111027ef4fe3, type: 3}
 --- !u!61 &2043269509
 BoxCollider2D:
   m_ObjectHideFlags: 0
