@@ -980,8 +980,8 @@ MonoBehaviour:
   AnimalImages:
   - {fileID: 21300000, guid: 0c84c5cead323b9449e3e78ab1ccf113, type: 3}
   - {fileID: 21300000, guid: 11bcccea3a281a149b816398e1c891e5, type: 3}
-  - {fileID: 21300000, guid: 3e77027ab05f6564886f48ec8ff2f5d1, type: 3}
-  - {fileID: 21300000, guid: abfd4e4b86bbe6340aaaba372c7b1985, type: 3}
+  - {fileID: 21300000, guid: 495c01e9ad5430945ad89d9926d0d8d2, type: 3}
+  - {fileID: 21300000, guid: 2c6f8413ce71a4b47a9ca09d6a422bc5, type: 3}
   audio:
   - {fileID: 8300000, guid: 555cbb3d1be804c4cb188c455266b92f, type: 3}
   - {fileID: 8300000, guid: 32cb181174b70fb4c960bd385f282fbf, type: 3}

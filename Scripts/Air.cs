@@ -72,6 +72,7 @@ public class Air : MonoBehaviour
                         Mathf.Abs(transform.position.y - hearPlace.position.y) <= 0.5f)
                     {
                         transform.position = new Vector2(hearPlace.position.x, hearPlace.position.y);
+                        transform.gameObject.GetComponent<BoxCollider2D>().enabled = false;
                         locked = true;
                         getTempPosition();
                         GameControl.score += 10;
@@ -96,6 +97,7 @@ public class Air : MonoBehaviour
     {
         //transform.position = new Vector2(initialPosition.x, initialPosition.y);
         transform.position = vectorTemp;
+        transform.gameObject.GetComponent<BoxCollider2D>().enabled = true;
         locked = false;
         getRandomImage();
     }

@@ -199,7 +199,7 @@ Transform:
   m_GameObject: {fileID: 145545226}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.531, y: -2.33, z: 0}
-  m_LocalScale: {x: 0.44332758, y: 0.6979918, z: 1}
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -220,7 +220,7 @@ MonoBehaviour:
   spriteImage:
   - {fileID: 21300000, guid: 0c84c5cead323b9449e3e78ab1ccf113, type: 3}
   - {fileID: 21300000, guid: 11bcccea3a281a149b816398e1c891e5, type: 3}
-  - {fileID: 21300000, guid: abfd4e4b86bbe6340aaaba372c7b1985, type: 3}
+  - {fileID: 21300000, guid: 495c01e9ad5430945ad89d9926d0d8d2, type: 3}
 --- !u!61 &145545230
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -238,7 +238,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.2, y: 4.93}
+    oldSize: {x: 3.29, y: 2.5}
     newSize: {x: 3.29, y: 2.49}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -585,7 +585,7 @@ Transform:
   m_GameObject: {fileID: 542609537}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.12, y: -2.65, z: 0}
-  m_LocalScale: {x: 0.5203096, y: 0.46842, z: 1}
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -624,7 +624,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.28, y: 5.51}
+    oldSize: {x: 3.3, y: 2.5}
     newSize: {x: 2.6, y: 2.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1675,8 +1675,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726036178}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6, y: -2.56, z: 0}
-  m_LocalScale: {x: 1.260836, y: 1.2684, z: 1}
+  m_LocalPosition: {x: -5.9, y: -2.6, z: 0}
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -1696,8 +1696,8 @@ MonoBehaviour:
   hearPlace: {fileID: 1127191006}
   spriteImage:
   - {fileID: 21300000, guid: ff9158737e243fa4e9a5df174f8adbf1, type: 3}
-  - {fileID: 21300000, guid: 9cff724b0bb455b4c83c3f68c2615e3b, type: 3}
-  - {fileID: 21300000, guid: 8f7662e512fbdaa43b6a24b1c57cf385, type: 3}
+  - {fileID: 21300000, guid: 80cacb0ff3d66e44984a084e2822a441, type: 3}
+  - {fileID: 21300000, guid: 84ab62c37157c41449e57cd61280ef58, type: 3}
 --- !u!61 &1726036182
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1715,7 +1715,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.16, y: 3.74}
+    oldSize: {x: 3.3, y: 2.5}
     newSize: {x: 2.06, y: 1.97}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

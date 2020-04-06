@@ -69,6 +69,7 @@ public class  Udara : MonoBehaviour
                         Mathf.Abs(transform.position.y - koalaPlace.position.y) <= 0.5f)
                     {
                         transform.position = new Vector2(koalaPlace.position.x, koalaPlace.position.y);
+                        transform.gameObject.GetComponent<BoxCollider2D>().enabled = false;
                         locked = true;
                         getTempPosition();
                         GameControl.score += 10;
@@ -93,6 +94,7 @@ public class  Udara : MonoBehaviour
     {
         //transform.position = new Vector2(initialPosition.x, initialPosition.y);
         transform.position = vectorTemp;
+        transform.gameObject.GetComponent<BoxCollider2D>().enabled = true;
         locked = false;
         getRandomImage();
     }
