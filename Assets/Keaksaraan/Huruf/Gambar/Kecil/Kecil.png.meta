@@ -1,0 +1,751 @@
+fileFormatVersion: 2
+guid: 35f6e66b23c44e54e9a35d0d95550b3d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4375855190938762675
+    second: Kecil_0
+  - first:
+      213: -7459413012619419498
+    second: Kecil_1
+  - first:
+      213: 3324031787260793421
+    second: Kecil_2
+  - first:
+      213: 2218036952206034465
+    second: Kecil_3
+  - first:
+      213: 2388569871951297917
+    second: Kecil_4
+  - first:
+      213: 6587195821073834769
+    second: Kecil_5
+  - first:
+      213: -601389824703286916
+    second: Kecil_6
+  - first:
+      213: 2460616982908094623
+    second: Kecil_7
+  - first:
+      213: -6063539554287159958
+    second: Kecil_8
+  - first:
+      213: 665711368976964359
+    second: Kecil_9
+  - first:
+      213: -7834844491351297758
+    second: Kecil_10
+  - first:
+      213: 8121692770104476763
+    second: Kecil_11
+  - first:
+      213: -9018879755215189770
+    second: Kecil_12
+  - first:
+      213: 4537289429362171038
+    second: Kecil_13
+  - first:
+      213: -1640397601074739400
+    second: Kecil_14
+  - first:
+      213: -1555482768486501672
+    second: Kecil_15
+  - first:
+      213: -2291729684689269299
+    second: Kecil_16
+  - first:
+      213: -4103061376778536164
+    second: Kecil_17
+  - first:
+      213: -8749654206805956083
+    second: Kecil_18
+  - first:
+      213: 5715018829000282306
+    second: Kecil_19
+  - first:
+      213: -6218189243328371673
+    second: Kecil_20
+  - first:
+      213: 2563750863171406238
+    second: Kecil_21
+  - first:
+      213: -9057942061598630592
+    second: Kecil_22
+  - first:
+      213: 7061106609131520057
+    second: Kecil_23
+  - first:
+      213: 454741599143681938
+    second: Kecil_24
+  - first:
+      213: -8105410043678159113
+    second: Kecil_25
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kecil_0
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 3129
+        width: 559
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42cb8b53e6d543c0800000000000000
+      internalID: -4375855190938762675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_1
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 3148
+        width: 609
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690a4edf267da7890800000000000000
+      internalID: -7459413012619419498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_2
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 3148
+        width: 499
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4259cd8c45512e20800000000000000
+      internalID: 3324031787260793421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_3
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 3119
+        width: 499
+        height: 858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1264eea3bdc08ce10800000000000000
+      internalID: 2218036952206034465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_4
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 3079
+        width: 599
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d7bd2b4a7e52120800000000000000
+      internalID: 2388569871951297917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_5
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 3089
+        width: 449
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1132b05e2bb6a6b50800000000000000
+      internalID: 6587195821073834769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_6
+      rect:
+        serializedVersion: 2
+        x: 4019
+        y: 3089
+        width: 619
+        height: 798
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71b607042f67a7f0800000000000000
+      internalID: -601389824703286916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_7
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2180
+        width: 569
+        height: 849
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98c78aeb1ed52220800000000000000
+      internalID: 2460616982908094623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_8
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2160
+        width: 349
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65fe21c6eaf9dba0800000000000000
+      internalID: -6063539554287159958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_9
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 2081
+        width: 459
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b9fc686f41d3900800000000000000
+      internalID: 665711368976964359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_10
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 2101
+        width: 559
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2217496227a054390800000000000000
+      internalID: -7834844491351297758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_11
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 2111
+        width: 369
+        height: 828
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b548fe83b8c06b070800000000000000
+      internalID: 8121692770104476763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_12
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 2071
+        width: 758
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8cf6e85a086d280800000000000000
+      internalID: -9018879755215189770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_13
+      rect:
+        serializedVersion: 2
+        x: 3969
+        y: 2081
+        width: 579
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c544842b0b7fe30800000000000000
+      internalID: 4537289429362171038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_14
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1302
+        width: 509
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8378981b2132c39e0800000000000000
+      internalID: -1640397601074739400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_15
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1202
+        width: 539
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2fe12d9a0d96ae0800000000000000
+      internalID: -1555482768486501672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_16
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 1202
+        width: 609
+        height: 819
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdc0ee6ef32230e0800000000000000
+      internalID: -2291729684689269299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_17
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1172
+        width: 449
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b7d71ba6ffe07c0800000000000000
+      internalID: -4103061376778536164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_18
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 1252
+        width: 559
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a24d74bdbf29680800000000000000
+      internalID: -8749654206805956083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_19
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 1133
+        width: 469
+        height: 838
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c01b337853df4f40800000000000000
+      internalID: 5715018829000282306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_20
+      rect:
+        serializedVersion: 2
+        x: 3929
+        y: 1143
+        width: 519
+        height: 748
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724e14d14dd84b9a0800000000000000
+      internalID: -6218189243328371673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_21
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 245
+        width: 509
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99cee3a3d5449320800000000000000
+      internalID: 2563750863171406238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_22
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 284
+        width: 808
+        height: 759
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d185e9fa9bb4280800000000000000
+      internalID: -9057942061598630592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_23
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 274
+        width: 569
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9308276bc071ef160800000000000000
+      internalID: 7061106609131520057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_24
+      rect:
+        serializedVersion: 2
+        x: 2642
+        y: 175
+        width: 588
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f5d8933119f4600800000000000000
+      internalID: 454741599143681938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kecil_25
+      rect:
+        serializedVersion: 2
+        x: 3370
+        y: 205
+        width: 539
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe0ea3728cc38f80800000000000000
+      internalID: -8105410043678159113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

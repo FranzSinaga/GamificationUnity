@@ -433,7 +433,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yuk Belajar dan Bermain
+  m_Text: Belajar Hewan
 --- !u!222 &681071377
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -817,6 +817,7 @@ GameObject:
   - component: {fileID: 1953587374}
   - component: {fileID: 1953587373}
   - component: {fileID: 1953587372}
+  - component: {fileID: 1953587375}
   m_Layer: 5
   m_Name: BermainButton
   m_TagString: Untagged
@@ -885,7 +886,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1953587373}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1953587375}
+        m_MethodName: changeMenu
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: BermainUtama
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1953587373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -922,3 +934,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1953587370}
   m_CullTransparentMesh: 0
+--- !u!114 &1953587375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953587370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b619487e847d94fa1acce321de0c71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

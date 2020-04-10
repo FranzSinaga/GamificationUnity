@@ -435,7 +435,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: HewanDarat
+          m_StringArgument: HewanDaratMode2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &175455066
@@ -602,6 +602,7 @@ GameObject:
   - component: {fileID: 192923605}
   - component: {fileID: 192923604}
   - component: {fileID: 192923603}
+  - component: {fileID: 192923606}
   m_Layer: 5
   m_Name: HabitatAir
   m_TagString: Untagged
@@ -670,7 +671,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 192923604}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 192923606}
+        m_MethodName: changeMenu
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: HewanAirMode2
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &192923604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -707,6 +719,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 192923601}
   m_CullTransparentMesh: 0
+--- !u!114 &192923606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192923601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b619487e847d94fa1acce321de0c71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &681039152
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,6 +959,7 @@ GameObject:
   - component: {fileID: 1392110027}
   - component: {fileID: 1392110026}
   - component: {fileID: 1392110025}
+  - component: {fileID: 1392110028}
   m_Layer: 5
   m_Name: HabitatUdara
   m_TagString: Untagged
@@ -1003,7 +1028,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1392110026}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1392110028}
+        m_MethodName: changeMenu
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: HewanUdara
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1392110026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1040,3 +1076,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392110023}
   m_CullTransparentMesh: 0
+--- !u!114 &1392110028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392110023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b619487e847d94fa1acce321de0c71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

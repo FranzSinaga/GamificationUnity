@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2168858959382510999, guid: d8040b83d1a5a504cb9837132c8603e7,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2852052134895992017, guid: d8040b83d1a5a504cb9837132c8603e7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -115,7 +120,7 @@ PrefabInstance:
     - target: {fileID: 3954035523345129513, guid: d8040b83d1a5a504cb9837132c8603e7,
         type: 3}
       propertyPath: m_Name
-      value: Button
+      value: PrefabMode2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8040b83d1a5a504cb9837132c8603e7, type: 3}
