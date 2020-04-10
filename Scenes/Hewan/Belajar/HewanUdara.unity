@@ -455,7 +455,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 355956542}
   m_Direction: 0
   m_Value: 1
-  m_Size: 1
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -960,7 +960,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 150, y: 150}
-  m_Spacing: {x: 10, y: 10}
+  m_Spacing: {x: 25, y: 10}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!114 &1606882729
@@ -976,17 +976,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3954035523345129513, guid: d8040b83d1a5a504cb9837132c8603e7, type: 3}
-  numberToCreate: 4
+  numberToCreate: 13
   AnimalImages:
+  - {fileID: 21300000, guid: 7e35dc11cbfade24babba5df72239efc, type: 3}
   - {fileID: 21300000, guid: 0c84c5cead323b9449e3e78ab1ccf113, type: 3}
+  - {fileID: 21300000, guid: 62b2cec64ec74b34e966e13e0ede1035, type: 3}
   - {fileID: 21300000, guid: 11bcccea3a281a149b816398e1c891e5, type: 3}
   - {fileID: 21300000, guid: 495c01e9ad5430945ad89d9926d0d8d2, type: 3}
+  - {fileID: 21300000, guid: 8d366e1fd3d510442ab84800bd430c40, type: 3}
+  - {fileID: 21300000, guid: c0a8d7b61a65e9843bb81743f3cb7479, type: 3}
+  - {fileID: 21300000, guid: bc63f3c7d9f2d9c4793a556aa3a284d3, type: 3}
   - {fileID: 21300000, guid: 2c6f8413ce71a4b47a9ca09d6a422bc5, type: 3}
+  - {fileID: 21300000, guid: 51eefbae148a638428612ad41933477e, type: 3}
+  - {fileID: 21300000, guid: c3f38b6b8adea41478f49d349c8e62d5, type: 3}
+  - {fileID: 21300000, guid: 2e5716fe98e5174408bf234d85b4b305, type: 3}
+  - {fileID: 21300000, guid: 157099feb2dca7046aad3d82970ec8bc, type: 3}
   audio:
-  - {fileID: 8300000, guid: 555cbb3d1be804c4cb188c455266b92f, type: 3}
-  - {fileID: 8300000, guid: 32cb181174b70fb4c960bd385f282fbf, type: 3}
-  - {fileID: 8300000, guid: 555cbb3d1be804c4cb188c455266b92f, type: 3}
-  - {fileID: 8300000, guid: 32cb181174b70fb4c960bd385f282fbf, type: 3}
+  - {fileID: 8300000, guid: 2d62d3ac244195443a60602d36007714, type: 3}
+  - {fileID: 8300000, guid: 41b1e789fcf07e4409bcfe9c0501e6c2, type: 3}
+  - {fileID: 8300000, guid: c9359373ec41b5e42a9b4fd37ce45fc5, type: 3}
+  - {fileID: 8300000, guid: e11d58c2d25892146b2885713b8ed4dc, type: 3}
+  - {fileID: 8300000, guid: 7384a2010a5c56c4fab2cfdeb96c864d, type: 3}
+  - {fileID: 8300000, guid: f4c63fcf458a43247b83acd8d9d720f1, type: 3}
+  - {fileID: 8300000, guid: 63c8e55091f14c2448e3387145ee9c07, type: 3}
+  - {fileID: 8300000, guid: 521a8a8b47f793e46b829d65201eb7f1, type: 3}
+  - {fileID: 8300000, guid: f7496f2bf749e9146a8af562b11261cd, type: 3}
+  - {fileID: 8300000, guid: 22138f6ae30aba342af18df351ccfad1, type: 3}
+  - {fileID: 8300000, guid: f88739cbd72d7a047a74ed646946fa97, type: 3}
+  - {fileID: 8300000, guid: 0e9c0b4fde9715349a4412aeb268d64b, type: 3}
+  - {fileID: 8300000, guid: 0c02f6430b850e54a96fd4377b00fc9b, type: 3}
 --- !u!222 &1606882730
 CanvasRenderer:
   m_ObjectHideFlags: 0

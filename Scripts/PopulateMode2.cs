@@ -13,13 +13,13 @@ public class PopulateMode2 : MonoBehaviour
     public GameObject prefab;
     public int numberToCreate;
 
-    public GameObject buttonNext, buttonPrev;
+    public GameObject buttonNext, buttonPrev, btnSpeechAudio;
     
     public Sprite[] AnimalImages;
-    public AudioClip[] audio;
+    public AudioClip[] audio, audioSpeech;
     
     public static List<Sprite> ListAnimalImages;
-    public static List<AudioClip> ListAnimalAudio;
+    public static List<AudioClip> ListAnimalAudio, ListAnimalSpeech;
     
     private static int position = 0;
     // Start is called before the first frame update
@@ -31,6 +31,7 @@ public class PopulateMode2 : MonoBehaviour
             populate();
             Content.GetComponent<Image>().sprite = ListAnimalImages[position];
             Content.GetComponent<AudioSource>().clip = ListAnimalAudio[position];
+            btnSpeechAudio.GetComponent<AudioSource>().clip = ListAnimalSpeech[position];
         }
     }
 
@@ -58,6 +59,7 @@ public class PopulateMode2 : MonoBehaviour
         GameObject newButton;
         ListAnimalImages = new List<Sprite>();
         ListAnimalAudio = new List<AudioClip>();
+        ListAnimalSpeech = new List<AudioClip>();
         for (int i = 0; i < numberToCreate; i++)
         {
             newButton = Instantiate(prefab);
@@ -65,6 +67,7 @@ public class PopulateMode2 : MonoBehaviour
             newButton.GetComponent<AudioSource>().clip = audio[i];
             ListAnimalImages.Add(AnimalImages[i]);
             ListAnimalAudio.Add(audio[i]);
+            ListAnimalSpeech.Add(audioSpeech[i]);
         }
     }
 
@@ -72,6 +75,7 @@ public class PopulateMode2 : MonoBehaviour
     {
         Content.GetComponent<Image>().sprite = ListAnimalImages[position+1];
         Content.GetComponent<AudioSource>().clip = ListAnimalAudio[position+1];
+        btnSpeechAudio.GetComponent<AudioSource>().clip = ListAnimalSpeech[position + 1];
         position++;
     }
     
@@ -79,6 +83,7 @@ public class PopulateMode2 : MonoBehaviour
     {
         Content.GetComponent<Image>().sprite = ListAnimalImages[position-1];
         Content.GetComponent<AudioSource>().clip = ListAnimalAudio[position-1];
+        btnSpeechAudio.GetComponent<AudioSource>().clip = ListAnimalSpeech[position - 1];
         position--;
     }
 }

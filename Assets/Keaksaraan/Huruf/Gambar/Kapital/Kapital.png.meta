@@ -1,0 +1,751 @@
+fileFormatVersion: 2
+guid: 16e83d1724d7aa74fa8b632011ef0d27
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2228717590292004141
+    second: Kapital_0
+  - first:
+      213: 5772413209369212033
+    second: Kapital_1
+  - first:
+      213: 6162992818723283533
+    second: Kapital_2
+  - first:
+      213: -5145426773737805556
+    second: Kapital_3
+  - first:
+      213: 6860512683774033431
+    second: Kapital_4
+  - first:
+      213: 937432957682425106
+    second: Kapital_5
+  - first:
+      213: 1262199488593438106
+    second: Kapital_6
+  - first:
+      213: 2553388378564675724
+    second: Kapital_7
+  - first:
+      213: -8012064892211743958
+    second: Kapital_8
+  - first:
+      213: -36766366811641078
+    second: Kapital_9
+  - first:
+      213: 4046824956868314706
+    second: Kapital_10
+  - first:
+      213: 4271104534789124391
+    second: Kapital_11
+  - first:
+      213: -6933912318344018062
+    second: Kapital_12
+  - first:
+      213: 814481508049382783
+    second: Kapital_13
+  - first:
+      213: -5464483675636369814
+    second: Kapital_14
+  - first:
+      213: -5848335260169117323
+    second: Kapital_15
+  - first:
+      213: -496834603331816672
+    second: Kapital_16
+  - first:
+      213: 5338828683683752283
+    second: Kapital_17
+  - first:
+      213: -6409814600803573820
+    second: Kapital_18
+  - first:
+      213: 412316561765466104
+    second: Kapital_19
+  - first:
+      213: -2336230898663350480
+    second: Kapital_20
+  - first:
+      213: 2016576856481013494
+    second: Kapital_21
+  - first:
+      213: 8127338004095597813
+    second: Kapital_22
+  - first:
+      213: 3239334204232614557
+    second: Kapital_23
+  - first:
+      213: -2083067336420273129
+    second: Kapital_24
+  - first:
+      213: -5173575853717502123
+    second: Kapital_25
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kapital_0
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 3137
+        width: 551
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2df40217defdee10800000000000000
+      internalID: 2228717590292004141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_1
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 3177
+        width: 541
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1847939fa3bbb1050800000000000000
+      internalID: 5772413209369212033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_2
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 3157
+        width: 526
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42e841d059578550800000000000000
+      internalID: 6162992818723283533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_3
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 3167
+        width: 551
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09e2956c95c798b0800000000000000
+      internalID: -5145426773737805556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_4
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 3172
+        width: 441
+        height: 797
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71eb965ffef653f50800000000000000
+      internalID: 6860512683774033431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_5
+      rect:
+        serializedVersion: 2
+        x: 3135
+        y: 3157
+        width: 416
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d976bee4e620d00800000000000000
+      internalID: 937432957682425106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_6
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 3157
+        width: 541
+        height: 807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95aa495fbb348110800000000000000
+      internalID: 1262199488593438106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2195
+        width: 577
+        height: 818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8845fda3357f6320800000000000000
+      internalID: 2553388378564675724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_8
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 2173
+        width: 453
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2337562e6d6fc090800000000000000
+      internalID: -8012064892211743958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_9
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 2173
+        width: 394
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ba2862f216d7ff0800000000000000
+      internalID: -36766366811641078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_10
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 2100
+        width: 577
+        height: 833
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25642567bd5392830800000000000000
+      internalID: 4046824956868314706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_11
+      rect:
+        serializedVersion: 2
+        x: 2684
+        y: 2130
+        width: 388
+        height: 803
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7217aa2f1f2064b30800000000000000
+      internalID: 4271104534789124391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_12
+      rect:
+        serializedVersion: 2
+        x: 3115
+        y: 2086
+        width: 665
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2774661eb7bc5cf90800000000000000
+      internalID: -6933912318344018062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_13
+      rect:
+        serializedVersion: 2
+        x: 3817
+        y: 2078
+        width: 540
+        height: 833
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d6863cd9e9d4b00800000000000000
+      internalID: 814481508049382783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_14
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1324
+        width: 552
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66f5c09c014a24b0800000000000000
+      internalID: -5464483675636369814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_15
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1314
+        width: 485
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5716a32111a86dea0800000000000000
+      internalID: -5848335260169117323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_16
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1266
+        width: 543
+        height: 863
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023f8448f83ea19f0800000000000000
+      internalID: -496834603331816672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_17
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 1227
+        width: 591
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59e2a7c664571a40800000000000000
+      internalID: 5338828683683752283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_18
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 1217
+        width: 513
+        height: 844
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf9dfac493cb07a0800000000000000
+      internalID: -6409814600803573820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_19
+      rect:
+        serializedVersion: 2
+        x: 3251
+        y: 1227
+        width: 523
+        height: 785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff7a077ab7d8b500800000000000000
+      internalID: 412316561765466104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_20
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 1140
+        width: 552
+        height: 824
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f11e3206a049fd0800000000000000
+      internalID: -2336230898663350480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_21
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 267
+        width: 581
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe13d877f15cfb10800000000000000
+      internalID: 2016576856481013494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_22
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 257
+        width: 843
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc76afaada1ac070800000000000000
+      internalID: 8127338004095597813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_23
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 267
+        width: 630
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92ce08cb4d64fc20800000000000000
+      internalID: 3239334204232614557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_24
+      rect:
+        serializedVersion: 2
+        x: 2718
+        y: 257
+        width: 533
+        height: 804
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71453794b457713e0800000000000000
+      internalID: -2083067336420273129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kapital_25
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 237
+        width: 562
+        height: 844
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55741acfb24c338b0800000000000000
+      internalID: -5173575853717502123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

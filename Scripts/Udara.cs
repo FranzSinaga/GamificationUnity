@@ -17,7 +17,7 @@ public class  Udara : MonoBehaviour
     public Sprite[] spriteImage;
     void Start()
     {
-        GameControl.score = 0;
+        //GameControl.score = 0;
         GameControl.updated = false;
         this.gameObject.GetComponent<SpriteRenderer>().sprite = spriteImage[0];
         initialPosition = transform.position;
@@ -72,7 +72,7 @@ public class  Udara : MonoBehaviour
                         transform.gameObject.GetComponent<BoxCollider2D>().enabled = false;
                         locked = true;
                         getTempPosition();
-                        GameControl.score += 10;
+                        GameControl.score += 5;
                     }
                     else
                     {

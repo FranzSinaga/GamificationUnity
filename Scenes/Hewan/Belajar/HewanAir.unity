@@ -1423,17 +1423,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3954035523345129513, guid: d8040b83d1a5a504cb9837132c8603e7, type: 3}
-  numberToCreate: 4
+  numberToCreate: 11
   AnimalImages:
-  - {fileID: 21300000, guid: ff9158737e243fa4e9a5df174f8adbf1, type: 3}
-  - {fileID: 21300000, guid: 84ab62c37157c41449e57cd61280ef58, type: 3}
+  - {fileID: 21300000, guid: 84e484ac3b69e5240b741f73f7f5f6d0, type: 3}
+  - {fileID: 21300000, guid: a32fdd5f8412d9345b7fc43280672301, type: 3}
+  - {fileID: 21300000, guid: 4df23999a03fbd040ab1f60300d3ed15, type: 3}
+  - {fileID: 21300000, guid: 0c8ba1d74bfc2144e907803fb98e894d, type: 3}
   - {fileID: 21300000, guid: 80cacb0ff3d66e44984a084e2822a441, type: 3}
-  - {fileID: 21300000, guid: 3e77027ab05f6564886f48ec8ff2f5d1, type: 3}
+  - {fileID: 21300000, guid: 5e9951d58c911164482d9d2f698f064e, type: 3}
+  - {fileID: 21300000, guid: affda601ffaa8ff49883d6abc5cc8730, type: 3}
+  - {fileID: 21300000, guid: 9c7ea6a73b4948844a3e8553ccd63fad, type: 3}
+  - {fileID: 21300000, guid: dc65c4098cef3b24eb7e7ff55f1a4b25, type: 3}
+  - {fileID: 21300000, guid: 84ab62c37157c41449e57cd61280ef58, type: 3}
+  - {fileID: 21300000, guid: ff9158737e243fa4e9a5df174f8adbf1, type: 3}
   audio:
-  - {fileID: 8300000, guid: 555cbb3d1be804c4cb188c455266b92f, type: 3}
-  - {fileID: 8300000, guid: 32cb181174b70fb4c960bd385f282fbf, type: 3}
-  - {fileID: 8300000, guid: 555cbb3d1be804c4cb188c455266b92f, type: 3}
-  - {fileID: 8300000, guid: 555cbb3d1be804c4cb188c455266b92f, type: 3}
+  - {fileID: 8300000, guid: 3b67d7805b804dd4baa60bbdc5d85d5b, type: 3}
+  - {fileID: 8300000, guid: 9b5f076ea51790947b78c7d5b9795322, type: 3}
+  - {fileID: 8300000, guid: 8ec3b7a7d8d81db48800ea44021fabe1, type: 3}
+  - {fileID: 8300000, guid: 8618bca7dbb76584d9c32bea34846444, type: 3}
+  - {fileID: 8300000, guid: 8f607605f5f703d41a3a22ed57277445, type: 3}
+  - {fileID: 8300000, guid: 12ff845cbed892644a23bb21afbcb351, type: 3}
+  - {fileID: 8300000, guid: 4db8a63a43ebdd4429f7c0dc997263ec, type: 3}
+  - {fileID: 8300000, guid: 3b51e447343f3884abd88b6465d7d48d, type: 3}
+  - {fileID: 8300000, guid: b9af25f3f889eed45b8e57a2a1da583a, type: 3}
+  - {fileID: 8300000, guid: 3dc0bbe77f752694c9b20df6c7a6cd00, type: 3}
+  - {fileID: 8300000, guid: 1638484f06df18c4ba5c3c5e93670448, type: 3}
 --- !u!222 &1019255606
 CanvasRenderer:
   m_ObjectHideFlags: 0
