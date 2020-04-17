@@ -5,7 +5,7 @@ using UnityEngine;
 public class  Udara : MonoBehaviour
 {
     [SerializeField] private Transform koalaPlace;
-
+    [SerializeField] private GameObject benar;
     private Vector2 initialPosition, posisiAwal;
     private float deltaX, deltaY;
     private int tempPositionIndex;
@@ -70,6 +70,9 @@ public class  Udara : MonoBehaviour
                     {
                         transform.position = new Vector2(koalaPlace.position.x, koalaPlace.position.y);
                         transform.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+                        transform.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+                        benar.SetActive(true);
+                        Invoke("setInactiveBenar", 1);
                         locked = true;
                         getTempPosition();
                         GameControl.score += 5;
@@ -89,12 +92,18 @@ public class  Udara : MonoBehaviour
             }
         }
     }
-
+    private void setInactiveBenar()
+    {
+        benar.SetActive(false);
+    }
     void reload()
     {
         //transform.position = new Vector2(initialPosition.x, initialPosition.y);
         transform.position = vectorTemp;
         transform.gameObject.GetComponent<BoxCollider2D>().enabled = true;
+        transform.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        benar.SetActive(true);
+        Invoke("setInactiveBenar", 1);
         locked = false;
         getRandomImage();
     }

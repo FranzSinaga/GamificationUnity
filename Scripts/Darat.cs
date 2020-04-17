@@ -15,6 +15,7 @@ public class Darat : MonoBehaviour
     
     //Object Image
     public Sprite[] spriteImage;
+    [SerializeField] private GameObject benar;
     
     void Start()
     {
@@ -71,6 +72,9 @@ public class Darat : MonoBehaviour
                     {
                         transform.position = new Vector2(bearPlace.position.x, bearPlace.position.y);
                         transform.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+                        transform.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+                        benar.SetActive(true);
+                        Invoke("setInactiveBenar", 1);
                         locked = true;
                         getTempPosition();
                         GameControl.score += 5;
@@ -90,7 +94,10 @@ public class Darat : MonoBehaviour
             }
         }
     }
-
+    private void setInactiveBenar()
+    {
+        benar.SetActive(false);
+    }
     void reload()
     {
         //transform.position = new Vector2(initialPosition.x, initialPosition.y);
@@ -98,6 +105,9 @@ public class Darat : MonoBehaviour
         locked = false;
         getRandomImage();
         transform.gameObject.GetComponent<BoxCollider2D>().enabled = true;
+        transform.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        benar.SetActive(true);
+        Invoke("setInactiveBenar", 1);
     }
     void getRandomImage()
     {

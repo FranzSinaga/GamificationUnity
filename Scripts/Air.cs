@@ -14,7 +14,8 @@ public class Air : MonoBehaviour
     private int tempPositionIndex;
     private Vector2 vectorTemp;
     public static bool locked, restart;
-    
+
+    [SerializeField] private GameObject benar;
     //Object Image
     public Sprite[] spriteImage;
     
@@ -75,6 +76,9 @@ public class Air : MonoBehaviour
                         transform.gameObject.GetComponent<BoxCollider2D>().enabled = false;
                         locked = true;
                         getTempPosition();
+                        transform.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+                        benar.SetActive(true); 
+                        Invoke("setInactiveBenar", 1);
                         GameControl.score += 5;
                     }
                     else
@@ -93,11 +97,18 @@ public class Air : MonoBehaviour
         }
     }
 
+    private void setInactiveBenar()
+    {
+        benar.SetActive(false);
+    }
     void reload()
     {
         //transform.position = new Vector2(initialPosition.x, initialPosition.y);
         transform.position = vectorTemp;
         transform.gameObject.GetComponent<BoxCollider2D>().enabled = true;
+        transform.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        benar.SetActive(true);
+        Invoke("setInactiveBenar", 1);
         locked = false;
         getRandomImage();
     }
