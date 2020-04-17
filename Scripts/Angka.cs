@@ -18,7 +18,7 @@ public class Angka : MonoBehaviour
     private int[] choice;
     private bool reload = false;
     public bool controller;
-
+    [SerializeField] private GameObject benar, salah;
     public int jumlahJawaban;
     // Start is called before the first frame update
     void Start()
@@ -54,14 +54,14 @@ public class Angka : MonoBehaviour
         int i = 0;
         int random;
         List<int> choiceText = new List<int>();
+        choiceText.Clear();
         while (i < jumlahJawaban)
         {
             random = Random.Range(1, 8);
             
             if (!choiceText.Contains(rightAnswer))
             {
-                random = rightAnswer;
-                choiceText.Add(random);
+                choiceText.Add(rightAnswer);
                 i++;
                 continue;
             } else if (!choiceText.Contains(random))
@@ -72,10 +72,12 @@ public class Angka : MonoBehaviour
             }
         }
 
-        Shuffle(choiceText);
+        //Shuffle(choiceText);
+        choiceText.Sort();
+        Debug.Log(choiceText.Count);
+        
         for (int j = 0; j < choiceText.Count; j++)
         {
-            Debug.Log(choiceText[j]);
             GameObjects[j].transform.Find("Text").gameObject.GetComponent<Text>().text = choiceText[j].ToString();
         }
     }
@@ -107,19 +109,33 @@ public class Angka : MonoBehaviour
             question.transform.Find(obj).gameObject.SetActive(false);
         }
     }
-
+    
+    private void setInactiveBenar()
+    {
+        benar.SetActive(false);
+    }
+    
+    private void setInactiveSalah()
+    {
+        salah.SetActive(false);
+    }
+    
     public void checkBenar()
     {
         int clicked = int.Parse(gameObject.transform.Find("Text").gameObject.GetComponent<Text>().text);
-        Debug.Log(answer);
+        //Debug.Log(answer);
         if (clicked == answer)
         {
-            Debug.Log("True");
+            //Debug.Log("True");
+            benar.SetActive(true);
+            Invoke("setInactiveBenar", 1);
             KeaksaraanGameControl.score += 5;
         }
         else
         {
-            Debug.Log("False");
+            salah.SetActive(true);
+            Invoke("setInactiveSalah", 1);
+            //Debug.Log("False");
         }
 
         reload = true;

@@ -37,7 +37,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -7109247316806732356}
-    m_Position: {x: 450, y: 100, z: 0}
+    m_Position: {x: 450.9958, y: 96.946106, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -54,7 +54,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: feedback
+  m_Name: feedback 1
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
