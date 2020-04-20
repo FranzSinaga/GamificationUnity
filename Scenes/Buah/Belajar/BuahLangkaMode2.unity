@@ -437,7 +437,7 @@ MonoBehaviour:
   controller: 0
   Content: {fileID: 730218567}
   prefab: {fileID: 7084923655005534022, guid: 845aa35f24869e748acafccca1fab66a, type: 3}
-  numberToCreate: 11
+  numberToCreate: 6
   buttonNext: {fileID: 1302211172}
   buttonPrev: {fileID: 1928953964}
   btnSpeechAudio: {fileID: 1768431822}
@@ -769,7 +769,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: HewanAir
+          m_StringArgument: BuahLangka
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &867877930
@@ -1120,46 +1120,13 @@ MonoBehaviour:
   controller: 1
   Content: {fileID: 730218567}
   prefab: {fileID: 7084923655005534022, guid: 845aa35f24869e748acafccca1fab66a, type: 3}
-  numberToCreate: 11
+  numberToCreate: 6
   buttonNext: {fileID: 1302211172}
   buttonPrev: {fileID: 1928953964}
   btnSpeechAudio: {fileID: 1768431822}
-  AnimalImages:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  audio:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  audioSpeech:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  AnimalImages: []
+  audio: []
+  audioSpeech: []
 --- !u!114 &1302211174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1656,46 +1623,13 @@ MonoBehaviour:
   controller: 1
   Content: {fileID: 730218567}
   prefab: {fileID: 7084923655005534022, guid: 845aa35f24869e748acafccca1fab66a, type: 3}
-  numberToCreate: 11
+  numberToCreate: 6
   buttonNext: {fileID: 1302211172}
   buttonPrev: {fileID: 1928953964}
   btnSpeechAudio: {fileID: 1768431822}
-  AnimalImages:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  audio:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  audioSpeech:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  AnimalImages: []
+  audio: []
+  audioSpeech: []
 --- !u!114 &1928953967
 MonoBehaviour:
   m_ObjectHideFlags: 0
