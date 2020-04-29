@@ -1288,6 +1288,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 954386f885a6318499c2fd7a7c993ac9, type: 3}
   voiceButton: {fileID: 1320597239}
   isController: 1
+  benar: {fileID: 248798471}
+  salah: {fileID: 137890151}
 --- !u!1 &490703718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1463,7 +1465,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: AngkaLvl1
+          m_StringArgument: BuahLvl1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &586506244
@@ -1900,6 +1902,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 954386f885a6318499c2fd7a7c993ac9, type: 3}
   voiceButton: {fileID: 1320597239}
   isController: 1
+  benar: {fileID: 248798471}
+  salah: {fileID: 137890151}
 --- !u!1 &909286922
 GameObject:
   m_ObjectHideFlags: 0
@@ -2075,7 +2079,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: AngkaLvl1
+          m_StringArgument: BuahLvl1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &913480015
@@ -2449,7 +2453,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: AngkaBermainUtama
+          m_StringArgument: BermainBuahUtama
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &970144472
@@ -2656,6 +2660,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 954386f885a6318499c2fd7a7c993ac9, type: 3}
   voiceButton: {fileID: 1320597239}
   isController: 1
+  benar: {fileID: 248798471}
+  salah: {fileID: 137890151}
 --- !u!1 &1104621692
 GameObject:
   m_ObjectHideFlags: 0
@@ -2945,6 +2951,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 954386f885a6318499c2fd7a7c993ac9, type: 3}
   voiceButton: {fileID: 1320597239}
   isController: 0
+  benar: {fileID: 248798471}
+  salah: {fileID: 137890151}
 --- !u!1 &1320597239
 GameObject:
   m_ObjectHideFlags: 0
@@ -3273,7 +3281,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: AngkaBermainUtama
+          m_StringArgument: BermainBuahUtama
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1395140477
@@ -4000,7 +4008,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: BuahBermainUtama
+          m_StringArgument: BermainBuahUtama
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1847152155

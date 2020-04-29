@@ -15,7 +15,6 @@ public class GameControl : MonoBehaviour
     public static List<int> randomList;
     public static bool updated = false;
 
-
     private Scene scene;
     //Score
     public static int score = 0;
@@ -121,14 +120,15 @@ public class GameControl : MonoBehaviour
 
     void checkLocked()
     {
-        if (Darat.locked && Air.locked && Udara.locked && scene.name == "HewanLvl1")
+        scene = SceneManager.GetActiveScene();
+        if (Darat.locked && Air.locked && Udara.locked && scene.name.Contains("1"))
         {
             updated = true;
             Air.restart = true;
             Darat.restart = true;
             Udara.restart = true;
             createListPosition();
-        } else if(Darat.locked && Darat2.locked && Air.locked && Udara.locked && scene.name == "HewanLvl2")
+        } else if(Darat.locked && Darat2.locked && Air.locked && Udara.locked && scene.name.Contains("2"))
         {
             updated = true;
             Air.restart = true;
@@ -136,7 +136,7 @@ public class GameControl : MonoBehaviour
             Udara.restart = true;
             Darat2.restart = true;
             createListPosition();
-        } else if(Darat.locked && Darat2.locked && Darat3.locked && Air.locked && Udara.locked && scene.name == "HewanLvl3")
+        } else if(Darat.locked && Darat2.locked && Darat3.locked && Air.locked && Udara.locked && scene.name.Contains("3"))
         {
             updated = true;
             Air.restart = true;

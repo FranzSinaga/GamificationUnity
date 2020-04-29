@@ -16,12 +16,12 @@ namespace DefaultNamespace
         public int targetScore = 50;
         
         //Time
-        private float currentTime=0f, startingTime=120f;
+        private float currentTime=0f, startingTime=10f;
         public int star1 = 50, star2 = 100, star3 = 150;
         private int starGet = 0;
         void Start()
         {
-            score = 0;
+            score = 200;
             winUI.SetActive(false);
             setInActiveStar(winUI);
             scoreText.GetComponent<Text>().text = score.ToString();

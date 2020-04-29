@@ -16,6 +16,8 @@ namespace DefaultNamespace
         private int answer;
         private bool reload;
         public bool isController;
+        [SerializeField] private GameObject benar, salah;
+        
         private void Start()
         {
             if (!isController)
@@ -76,6 +78,16 @@ namespace DefaultNamespace
                 //jawaban[j].transform.Find("Text").gameObject.SetActive(false);
             }
         }
+        
+        private void setInactiveBenar()
+        {
+            benar.SetActive(false);
+        }
+            
+        private void setInactiveSalah()
+        {
+            salah.SetActive(false);
+        }
 
         public void checkBenar()
         {
@@ -85,14 +97,14 @@ namespace DefaultNamespace
             if (clicked == answerss)
             {
                 Debug.Log("True");
-                //benar.SetActive(true);
-                //Invoke("setInactiveBenar", 1);
+                benar.SetActive(true);
+                Invoke("setInactiveBenar", 1);
                 KeaksaraanGameControl.score += 5;
             }
             else
             {
-                //salah.SetActive(true);
-                //Invoke("setInactiveSalah", 1);
+                salah.SetActive(true);
+                Invoke("setInactiveSalah", 1);
                 Debug.Log("False");
             }
 
