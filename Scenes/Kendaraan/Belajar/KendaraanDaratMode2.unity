@@ -183,13 +183,13 @@ MonoBehaviour:
   AnimalImages:
   - {fileID: 21300000, guid: cd88286c8db993e44b9581f240fd5506, type: 3}
   - {fileID: 21300000, guid: d3c7e82782e6c0943983341c07d6c2f3, type: 3}
-  - {fileID: 21300000, guid: 27126a17c6a004e4abe07071b861b110, type: 3}
+  - {fileID: 21300000, guid: f31e37eae938a7645bbc07ba861163bb, type: 3}
   - {fileID: 21300000, guid: 98d4f050a40e641418d8fb6774dc6205, type: 3}
-  - {fileID: 21300000, guid: 1ad63b3132cd8c943a923f80fdad959c, type: 3}
-  - {fileID: 21300000, guid: b0c25d6065d964b48b29cfe5d7d0267e, type: 3}
-  - {fileID: 21300000, guid: 0e6e46c4e4a37d143af4e4abcff52885, type: 3}
+  - {fileID: 21300000, guid: 4168c076ca0e6c64b8757cf730dd1c07, type: 3}
+  - {fileID: 21300000, guid: 9cc52e54a9bca894fbb52c9ebbaa90d8, type: 3}
+  - {fileID: 21300000, guid: ea88d473cd138214189a5e76d3cdc021, type: 3}
   - {fileID: 21300000, guid: 1f67b71c08b184a44830906c6cb6e95c, type: 3}
-  - {fileID: 21300000, guid: d0640e23a72c36c45878ebdc25edb1fa, type: 3}
+  - {fileID: 21300000, guid: 5e9609d53e8302247bf8577a875c21f6, type: 3}
   - {fileID: 21300000, guid: 2356ddeadc2b5bf47b81eba33468a0f9, type: 3}
   audio:
   - {fileID: 8300000, guid: 85678634ba5b7cb46b7be93e620fce83, type: 3}

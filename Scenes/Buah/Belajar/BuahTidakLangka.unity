@@ -1171,7 +1171,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: BelajarHewan
+          m_StringArgument: BelajarBuah
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &902193174
@@ -1448,28 +1448,28 @@ MonoBehaviour:
   - {fileID: 21300000, guid: bff4b14767ee00847aa93d3a24c14b83, type: 3}
   - {fileID: 21300000, guid: f9dcd8dacb7a1554786c43dd11ad4948, type: 3}
   audio:
-  - {fileID: 8300000, guid: ed084e4d65f3baa43b4b1d9e0450a448, type: 3}
+  - {fileID: 8300000, guid: eb5e9a1a31bcf7d49b75193cfcdc7741, type: 3}
   - {fileID: 8300000, guid: 954386f885a6318499c2fd7a7c993ac9, type: 3}
-  - {fileID: 8300000, guid: bf570c8e164739b49b1f88a245ef8593, type: 3}
-  - {fileID: 8300000, guid: 20b570ded04e1514f940835212b5fb91, type: 3}
-  - {fileID: 8300000, guid: eb21bd1652aa20b4688d465093797626, type: 3}
-  - {fileID: 8300000, guid: 4ea645a76b479e548995555f618fabcd, type: 3}
-  - {fileID: 8300000, guid: 84661c44ca026ef4e8d6c44d5e03a8c5, type: 3}
-  - {fileID: 8300000, guid: 56d5802a3154828448563639f0a8f212, type: 3}
-  - {fileID: 8300000, guid: 98b2664e1d6c7224e80517ce9ff45efc, type: 3}
+  - {fileID: 8300000, guid: ebfadd8a6ca87104eb35f3132d63dc04, type: 3}
+  - {fileID: 8300000, guid: f6716d4f7255d224692398868ff227c0, type: 3}
+  - {fileID: 8300000, guid: 2a5f690065078e949b7676157e46e6ef, type: 3}
+  - {fileID: 8300000, guid: d94f3840c7a77ac48baa2bad17e38a33, type: 3}
+  - {fileID: 8300000, guid: e135c65c06693844ca7e9b32ff924989, type: 3}
+  - {fileID: 8300000, guid: f688b3e1dcb825d4eb2cf39806fee604, type: 3}
+  - {fileID: 8300000, guid: e3feb8f306f5b1e459e9241b05533151, type: 3}
   - {fileID: 8300000, guid: 66efd99ca8c100142aab0fbc55fea960, type: 3}
-  - {fileID: 8300000, guid: 110fe12608f3f5d4d8d82cacc6bd4226, type: 3}
-  - {fileID: 8300000, guid: b1033b9ecdfd033488abe9cc012dd825, type: 3}
-  - {fileID: 8300000, guid: 78e245f142d006d4d9ab1a2e406ff69d, type: 3}
-  - {fileID: 8300000, guid: a27a12d45d15cb4499076a418a969cf1, type: 3}
-  - {fileID: 8300000, guid: e888bde9bb06536449c28728669d6eb0, type: 3}
-  - {fileID: 8300000, guid: c7f281b37c1180f44b680d7c0090ff63, type: 3}
-  - {fileID: 8300000, guid: 5ff1533969f859a42a5ab8292cd82009, type: 3}
-  - {fileID: 8300000, guid: 44cd8bd77a06b7e4196f9c8636879c57, type: 3}
-  - {fileID: 8300000, guid: f675e80fe80c8a244952e37e18bd651e, type: 3}
-  - {fileID: 8300000, guid: d01cc41b4a170d74ca21def3baaecae8, type: 3}
-  - {fileID: 8300000, guid: af3a9495493fa7c45bd61b9964619355, type: 3}
-  - {fileID: 8300000, guid: e20adaf72d85f8f4ca03a0e869c566b4, type: 3}
+  - {fileID: 8300000, guid: 81ff7809a650f4c46a958870c8880f6d, type: 3}
+  - {fileID: 8300000, guid: 05a097759a53cdb40a6849c158bedc0b, type: 3}
+  - {fileID: 8300000, guid: 350abe435cdf6e341938259354e1f735, type: 3}
+  - {fileID: 8300000, guid: b5b5d42bd4601f648a346dcfa9713883, type: 3}
+  - {fileID: 8300000, guid: 191ffc7b6fd528e45aadf6a848145aea, type: 3}
+  - {fileID: 8300000, guid: 14f525561dad8d249a335ff39efe96bd, type: 3}
+  - {fileID: 8300000, guid: 309937e5fa8471a41b4b91f3f35be393, type: 3}
+  - {fileID: 8300000, guid: 40ac19eb8482f7641bb73af0e5d4428f, type: 3}
+  - {fileID: 8300000, guid: d0e8f64961640f34db9d4a76e2a0f6f2, type: 3}
+  - {fileID: 8300000, guid: b75f8048af326bf499c676475074fa4b, type: 3}
+  - {fileID: 8300000, guid: 6e5fb4e3d1b8216418547fd4a4fff1bb, type: 3}
+  - {fileID: 8300000, guid: 107c25ccc9af33b4484af8132b010e6f, type: 3}
 --- !u!222 &1019255606
 CanvasRenderer:
   m_ObjectHideFlags: 0
