@@ -19,4 +19,9 @@ public class ChangeScene : MonoBehaviour
     public void changeMenu(string sceneName){
         Application.LoadLevel(sceneName);
     }
+    
+    public void exitGame(){
+        Debug.Log("Exit Game");
+        Application.Quit();
+    }
 }
