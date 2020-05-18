@@ -27,7 +27,7 @@ public class PopulateMode2 : MonoBehaviour
     void Start()
     {
         position = 0;
-        statusText.text = position.ToString() + "/" + numberToCreate.ToString();
+        statusText.text = (position+1).ToString() + "/" + numberToCreate.ToString();
         if (controller != true)
         {
             populate();
@@ -55,7 +55,7 @@ public class PopulateMode2 : MonoBehaviour
             buttonNext.SetActive(true);
             buttonPrev.SetActive(true);
         }
-        statusText.text = position.ToString() + "/" + (numberToCreate-1).ToString();
+        statusText.text = (position+1).ToString() + "/" + numberToCreate.ToString();
     }
 
     void populate(){

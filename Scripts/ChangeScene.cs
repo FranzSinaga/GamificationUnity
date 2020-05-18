@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ChangeScene : MonoBehaviour
 {
@@ -23,5 +24,17 @@ public class ChangeScene : MonoBehaviour
     public void exitGame(){
         Debug.Log("Exit Game");
         Application.Quit();
+    }
+
+    public void voice(Button btn)
+    {
+        if (btn.interactable)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            gameObject.GetComponent<AudioSource>().Play();
+        }
     }
 }
