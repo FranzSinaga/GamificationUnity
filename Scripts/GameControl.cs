@@ -21,7 +21,7 @@ public class GameControl : MonoBehaviour
     public int targetScore = 50;
     
     //Time
-    private float currentTime=0f, startingTime=120f;
+    private float currentTime=0f, startingTime=10f;
     public int star1 = 50, star2 = 100, star3 = 150;
         private int starGet = 0;
     void Start()
@@ -101,7 +101,8 @@ public class GameControl : MonoBehaviour
             }
             else
             {
-                winUI.GetComponentInChildren<Text>().text = "Kamu gagal";
+                winUI.GetComponentInChildren<Text>().text = "Ayo coba lagi, Kamu Bisa";
+                winUI.GetComponentInChildren<Text>().fontSize = 45;
                 winUI.transform.Find("WinButtonLocation").gameObject.SetActive(false);
                 winUI.transform.Find("LoseButtonLocation").gameObject.SetActive(true);
             }
