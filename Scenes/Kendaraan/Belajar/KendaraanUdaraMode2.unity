@@ -1125,7 +1125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f01086a7ebc4a96bbf5533b7238fef9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statusText: {fileID: 0}
+  statusText: {fileID: 13266715}
   controller: 1
   Content: {fileID: 1880797059}
   prefab: {fileID: 7084923655005534022, guid: 845aa35f24869e748acafccca1fab66a, type: 3}
@@ -1684,7 +1684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f01086a7ebc4a96bbf5533b7238fef9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statusText: {fileID: 0}
+  statusText: {fileID: 13266715}
   controller: 1
   Content: {fileID: 1880797059}
   prefab: {fileID: 7084923655005534022, guid: 845aa35f24869e748acafccca1fab66a, type: 3}
