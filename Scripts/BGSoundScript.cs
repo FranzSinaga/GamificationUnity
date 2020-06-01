@@ -1,11 +1,12 @@
-﻿
+﻿using System;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class BGSoundScript : MonoBehaviour
 {
     // Start is called before the first frame update
     private static BGSoundScript instance = null;
-
+    private bool isPause = false;
     public static BGSoundScript Instance
     {
         get { return instance; }
@@ -22,6 +23,7 @@ public class BGSoundScript : MonoBehaviour
         {
             instance = this;
         }
+        
         DontDestroyOnLoad(this.gameObject);
     }
 
@@ -33,6 +35,24 @@ public class BGSoundScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("Awake:" + SceneManager.GetActiveScene().name);
+        String activeScene = SceneManager.GetActiveScene().name;
+        if (activeScene.Contains("Lvl"))
+        {
+            this.gameObject.GetComponent<AudioSource>().Pause();
+            isPause = true;
+        }
+        else
+        {
+            if (isPause)
+            {
+                this.gameObject.GetComponent<AudioSource>().Play();
+                isPause = false;
+            }
+            else
+            {
+                Debug.Log(isPause);
+            }
+        }
     }
 }

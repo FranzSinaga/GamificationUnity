@@ -16,7 +16,7 @@ namespace DefaultNamespace
         public int targetScore = 50;
         
         //Time
-        private float currentTime=0f, startingTime=120f;
+        private float currentTime = 0f; public float startingTime=120f;
         public int star1 = 50, star2 = 100, star3 = 150;
         private int starGet = 0;
         void Start()
