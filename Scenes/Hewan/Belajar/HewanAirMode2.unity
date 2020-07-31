@@ -542,7 +542,7 @@ MonoBehaviour:
   AnimalImages:
   - {fileID: 21300000, guid: 84e484ac3b69e5240b741f73f7f5f6d0, type: 3}
   - {fileID: 21300000, guid: a32fdd5f8412d9345b7fc43280672301, type: 3}
-  - {fileID: 21300000, guid: 4df23999a03fbd040ab1f60300d3ed15, type: 3}
+  - {fileID: 21300000, guid: a2c6c4473f7c525408efb03fe05a7c62, type: 3}
   - {fileID: 21300000, guid: 0c8ba1d74bfc2144e907803fb98e894d, type: 3}
   - {fileID: 21300000, guid: 80cacb0ff3d66e44984a084e2822a441, type: 3}
   - {fileID: 21300000, guid: 5e9951d58c911164482d9d2f698f064e, type: 3}

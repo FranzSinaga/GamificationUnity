@@ -21,7 +21,7 @@ public class GameControl : MonoBehaviour
     public int targetScore = 50;
     
     //Time
-    private float currentTime=0f, startingTime=120f;
+    private float currentTime=0f; public float startingTime=120f;
     public int star1 = 50, star2 = 100, star3 = 150;
         private int starGet = 0;
     void Start()
@@ -122,14 +122,14 @@ public class GameControl : MonoBehaviour
     void checkLocked()
     {
         scene = SceneManager.GetActiveScene();
-        if (Darat.locked && Air.locked && Udara.locked && scene.name.Contains("1"))
+        if (Darat.locked && Air.locked && Udara.locked && scene.name.Contains("2"))
         {
             updated = true;
             Air.restart = true;
             Darat.restart = true;
             Udara.restart = true;
             createListPosition();
-        } else if(Darat.locked && Darat2.locked && Air.locked && Udara.locked && scene.name.Contains("2"))
+        } else if(Darat.locked && Darat2.locked && Air.locked && Udara.locked && scene.name.Contains("3"))
         {
             updated = true;
             Air.restart = true;
@@ -137,7 +137,7 @@ public class GameControl : MonoBehaviour
             Udara.restart = true;
             Darat2.restart = true;
             createListPosition();
-        } else if(Darat.locked && Darat2.locked && Darat3.locked && Air.locked && Udara.locked && scene.name.Contains("3"))
+        } else if(Darat.locked && Darat2.locked && Darat3.locked && Air.locked && Udara.locked && scene.name.Contains("4"))
         {
             updated = true;
             Air.restart = true;

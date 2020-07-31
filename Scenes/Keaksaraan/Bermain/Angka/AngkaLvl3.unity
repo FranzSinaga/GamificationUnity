@@ -4315,6 +4315,7 @@ MonoBehaviour:
   timeText: {fileID: 703174198}
   winUI: {fileID: 1802336623}
   targetScore: 150
+  startingTime: 120
   star1: 150
   star2: 200
   star3: 225

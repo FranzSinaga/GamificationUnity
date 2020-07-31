@@ -63,12 +63,12 @@ public class Angka : MonoBehaviour
             {
                 choiceText.Add(rightAnswer);
                 i++;
-                continue;
+                //continue;
             } else if (!choiceText.Contains(random))
             {
                 choiceText.Add(random);
                 i++;
-                continue;
+                //continue;
             }
         }
 
@@ -84,7 +84,8 @@ public class Angka : MonoBehaviour
 
     void Shuffle(List<int> alpha)
     {
-        for (int i = 0; i < alpha.Count; i++) {
+        for (int i = 0; i < alpha.Count; i++)
+        {
             int temp = alpha[i];
             int randomIndex = Random.Range(i, alpha.Count);
             alpha[i] = alpha[randomIndex];
